@@ -1,0 +1,16 @@
+{
+  "name": "mongodb-short-id",
+  "version": "0.1.0",
+  "description": "Convert MongoDB id to shorter strings and reverse",
+  "main": "src/mongodb-short-id.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "keywords": [
+    "MongoDB",
+    "id"
+  ],
+  "author": "Philipp Klose <me@thehippo.de>",
+  "license": "MIT"
+}
