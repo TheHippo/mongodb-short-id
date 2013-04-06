@@ -9,10 +9,17 @@
   "dependencies" : {
     "mongodb": ">1.2.0"
   },
-  "repository": "",
+  "repository" : {
+    "type": "git",
+    "url": "https://github.com/TheHippo/mongodb-short-id.git"
+  },
+  "bugs" : {
+    "url" : "https://github.com/TheHippo/mongodb-short-id/issues"
+  },
   "keywords": [
     "MongoDB",
-    "id"
+    "id",
+    "Mongo"
   ],
   "author": "Philipp Klose <me@thehippo.de>",
   "license": "MIT"
