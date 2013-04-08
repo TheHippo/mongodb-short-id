@@ -28,3 +28,7 @@ Create shorter string from MongoDB objectIDs and reverse
 * `o2s` => `objectIDtoShort`
 * `s2o` => `shortToObjectID`
 
+### Build status
+
+* master: [![Build Status](https://travis-ci.org/TheHippo/mongodb-short-id.png?branch=master)](https://travis-ci.org/TheHippo/mongodb-short-id)
+* develop: [![Build Status](https://travis-ci.org/TheHippo/mongodb-short-id.png?branch=develop)](https://travis-ci.org/TheHippo/mongodb-short-id)
