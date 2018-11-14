@@ -1,6 +1,6 @@
 {
   "name": "mongodb-short-id",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "Convert MongoDB id to shorter strings and reverse",
   "main": "src/mongodb-short-id.js",
   "scripts": {
