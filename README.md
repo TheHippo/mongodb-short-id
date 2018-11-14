@@ -4,22 +4,24 @@ Create shorter string from MongoDB objectIDs and reverse
 
 ## Api Examples
 
-	var shortID = require('mongodb-short-id');
+```javascript
+var shortID = require('mongodb-short-id');
 
-	shortID.longToShort('507f1f77bcf86cd799439011');
-	// => 'UH8fd7z4bNeZQ5AR'
+shortID.longToShort('507f1f77bcf86cd799439011');
+// => 'UH8fd7z4bNeZQ5AR'
 
-	shortID.shortToLong('UH8fd7z4bNeZQ5AR');
-	// => '507f1f77bcf86cd799439011'
+shortID.shortToLong('UH8fd7z4bNeZQ5AR');
+// => '507f1f77bcf86cd799439011'
 
-	shortID.shortToObjectID('UH8fd7z4bNeZQ5AR');
-	// => 507f1f77bcf86cd799439011
-	typeof shortID.shortToObjectID('UH8fd7z4bNeZQ5AR');
-	// => 'object'
+shortID.shortToObjectID('UH8fd7z4bNeZQ5AR');
+// => 507f1f77bcf86cd799439011
+typeof shortID.shortToObjectID('UH8fd7z4bNeZQ5AR');
+// => 'object'
 
-	var objectID = shortID.shortToObjectID('UH8fd7z4bNeZQ5AR');
-	shortID.objectIDToShort(objectID)
-	// => 'UH8fd7z4bNeZQ5AR'
+var objectID = shortID.shortToObjectID('UH8fd7z4bNeZQ5AR');
+shortID.objectIDToShort(objectID)
+// => 'UH8fd7z4bNeZQ5AR'
+```
 
 ### Shortcuts
 
